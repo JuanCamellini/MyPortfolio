@@ -1,2 +1,4 @@
 env/
-**/Portfolio/settings.py
+*settings.py
+*.pyc
+Portfolio\Portfolio\settings.py
