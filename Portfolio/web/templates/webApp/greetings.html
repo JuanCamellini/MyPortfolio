@@ -1,0 +1,25 @@
+{% extends "webapp/index.html" %}
+{% load static %}
+
+{% block content %}
+<section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100"> 
+    <center> 
+        <h2>Thank for your message! We'll get back to you as soon as possible.</h2>
+    </center>
+        <center>
+            <div class="social-links">
+        <a href="https://github.com/JuanCamellini/" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/juan-camellini-919345240/" target="_blank" class="linkedin"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="mailto:juantomascamellini@gmail.com" target="_blank" class="mail"><i class="bx bxl-gmail"></i></a>
+        <a href="https://es.stackoverflow.com/users/338285/juan-camellini" target="_blank" class="stack-overflow"><i
+            class="bx bxl-stack-overflow"></i></a>
+        <a href="https://www.instagram.com/juantocame/" target="_blank" class="instagram"><i
+            class="bx bxl-instagram"></i></a>
+            </div>
+        </center><br>
+        <center><a href="{% url 'home' %}"><h6>Come back</h6></a></center>
+    </div>
+</section>
+{% endblock %}
