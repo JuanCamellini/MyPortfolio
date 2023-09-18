@@ -1,4 +1,4 @@
 env/
-*settings.py
+*settingsKeys.py
 *.pyc
-Portfolio\Portfolio\settings.py
+Portfolio\Portfolio\settingsKeys.py
